@@ -1,20 +1,20 @@
 import React from "react";
-import * as d3 from "d3";
-import { Library } from "@observablehq/stdlib/";
-import * as vl from "../vega/src/index.js"
-import { Vega } from 'react-vega';
+// import * as d3 from "d3";
+// import { Library } from "@observablehq/stdlib/";
+import * as vl from "../vega/src/index.js";
+import { Vega } from "react-vega";
 //import * as vega from "vega";
 // import ReactDOM from "react-dom/client";
 
-const useD3 = (renderChartFn, dependencies) => {
-  const ref = React.useRef();
+// const useD3 = (renderChartFn, dependencies) => {
+//   const ref = React.useRef();
 
-  React.useEffect(() => {
-    renderChartFn(d3.select(ref.current));
-    return () => {};
-  }, dependencies);
-  return ref;
-};
+//   React.useEffect(() => {
+//     renderChartFn(d3.select(ref.current));
+//     return () => {};
+//   }, dependencies);
+//   return ref;
+// };
 
 const dataset = [
   { magnitude: 40 },
@@ -28,17 +28,17 @@ const dataset = [
 ];
 
 const Visu = () => {
-  const ref = useD3((svg) => {
-    svg
-      .selectAll("circle")
-      .data(dataset)
-      .enter()
-      .append("circle")
-      .attr("cx", (d) => d[0])
-      .attr("cy", (d) => d[1])
-      .attr("r", 5)
-      .attr("fill", "DarkCyan");
-  }, []);
+  // const ref = useD3((svg) => {
+  //   svg
+  //     .selectAll("circle")
+  //     .data(dataset)
+  //     .enter()
+  //     .append("circle")
+  //     .attr("cx", (d) => d[0])
+  //     .attr("cy", (d) => d[1])
+  //     .attr("r", 5)
+  //     .attr("fill", "DarkCyan");
+  // }, []);
 
   const width = 300;
 
@@ -72,8 +72,8 @@ const Visu = () => {
   };
   console.log(vega_r.toSpec());
   //const result = embed("#vis", a);
-  
-  return <Vega spec={vega_r.toSpec()}/>;
+
+  return <Vega spec={vega_r.toSpec()} />;
 
   // <svg
   //   ref={ref}
