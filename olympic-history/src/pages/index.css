@@ -1,0 +1,121 @@
+/* body{
+
+    overflow-x: clip ;
+} */
+ /* body::-webkit-scrollbar {
+    display: none;
+}  */
+.container {
+
+    margin: 0;
+    display: block;
+    position: relative;
+    overflow-x: clip;
+    /* flex-direction: column; */
+}
+
+.container2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* overflow-x: hidden; */
+}
+
+.header-image{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: radial-gradient(circle at top center, transparent, #012030),
+    url("/public/header-image.png") no-repeat center ;
+    background-size: 100% 100%;
+
+   
+}
+
+.header-image > h1{
+
+    font-size: 7vw;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header-image > h4{
+
+    font-size: 2vw;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.time-line-title{
+   display: flex;
+   
+   width: 100vw;
+   height: 100vh;
+   flex-direction: column;
+   align-self: center;
+}
+
+.time-line{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+    
+    /* padding: 10px; */
+    color: rgb(255, 255, 255);
+    /* background-color:#13678A; */
+    background-image: linear-gradient(to right, #13678A ,#012030);
+}
+
+.time-line > ul{
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.time-line > ul > li{
+    list-style-type: none;
+    padding-top: 30vh;
+    padding-bottom:  30vh;
+    font-weight: 400;
+    font-size: 1.23vw;
+    text-align: center;
+    /* text-justify: inter-cluster; */
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+
+.time-line > ul > li > h1{
+    /* list-style-type: none;
+    padding-top: 50vh;
+    padding-bottom:  50vh; */
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    
+    /* display: flex;
+    justify-content: center; */
+    margin-bottom: 20px;
+}
+
+.static-view{
+
+    display: flex;
+    color: white;
+    position: sticky;
+    top: 0;
+    /* top:-10vh; */
+    left: 35vw;
+    /* transform: translate(35vw); */
+    margin: 0;
+    width: 65vw;
+    height: 100vh;
+    background-color:#012030;
+    /* background-image: linear-gradient(to right, #012030 ,#16333f); */
+    justify-content: center;
+}

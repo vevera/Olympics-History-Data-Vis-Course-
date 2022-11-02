@@ -2,11 +2,11 @@ import logo from "./logo.svg";
 import "./App.css";
 import Slide from "./Slide";
 import Visu from "./d3";
-
+import TimeLineVis from "./pages";
 function App() {
   return (
     <>
-      <Visu />
+      <TimeLineVis />
     </>
     // <main>
     //   <section class="no-parallax">
