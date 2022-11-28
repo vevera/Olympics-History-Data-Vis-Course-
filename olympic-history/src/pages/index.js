@@ -1,11 +1,11 @@
 import React, {useState} from "react";
-import * as vl from "../vega/src/index.js";
-import { Vega } from "react-vega";
 
 import {TimeLine, TimeLineTitle, TimeLineBottom} from "./timeLine.js";
 import StaticView from "./staticView.js";
 import "./index.css"
 import { YearContext } from "./year_context.js";
+import MapBar from "../vis/map-bar/mapBar.js";
+import BubblePlot from "../vis/bubble/bubblePlot.js";
 
 //const YearContext = React.createContext();
 
@@ -21,6 +21,12 @@ const TimeLineVis = () => {
                     <TimeLine />
                     <StaticView />
                     
+                </div>
+                <div className="chart">
+                    <MapBar className="mapbar"/>
+                </div>
+                <div className="chart">
+                    <BubblePlot className="mapbar"/>
                 </div>
                 <TimeLineBottom/>
             </div>

@@ -1,0 +1,4 @@
+.bar-chart-svg > svg{
+    transform: scale(1.30) translate(10vw, 15vh);
+    /* transform: translate(10vw); */
+}

@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@observablehq/runtime": "5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "f361f31998193cb5": "https://api.observablehq.com/d/f361f31998193cb5@396.tgz?v=3",
+    "f3805e82ef20f033": "https://api.observablehq.com/d/f3805e82ef20f033@1839.tgz?v=3",
+    "f7f4ac94baa60885": "https://api.observablehq.com/d/f7f4ac94baa60885@572.tgz?v=3",
     "json-loader": "^0.5.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

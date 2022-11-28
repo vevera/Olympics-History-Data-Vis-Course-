@@ -111,3 +111,10 @@ body::-webkit-scrollbar {
   /* background-image: linear-gradient(to right, #012030 ,#16333f); */
   justify-content: center;
 }
+
+.chart {
+
+  background-color:#012030;
+  width: 100vw;
+  height: 100vh;
+}

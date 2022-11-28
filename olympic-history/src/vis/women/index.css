@@ -1,0 +1,9 @@
+
+.bar{
+    transform: scale(1.30) translate(3vw, 20vh);
+}
+
+.pie {
+    transform: scale(1.01) translate(6vw, 30vh);
+    /* transform: translate(10vw); */
+}

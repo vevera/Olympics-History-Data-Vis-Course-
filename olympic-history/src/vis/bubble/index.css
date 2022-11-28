@@ -1,0 +1,7 @@
+.bubble-plot{
+    transform: translate(1vw, 15vh);
+}
+
+.bubble-plot > form > label > output{
+    display: none;
+}
