@@ -45,9 +45,15 @@ const TimeLineItem = ({ year, text, setVisibleYear }) => {
 
       //console.log("Year", year, rect, parseFloat(style.paddingTop) + rect.top)
       const isVisible =
-        rect.top + parseFloat(style.paddingTop) >= 0 &&
-        rect.top <=
-          (window.innerHeight || document.documentElement.clientHeight);
+      rect.top + parseFloat(style.paddingTop) >= 0 &&
+        rect.bottom - parseFloat(style.paddingBottom)<=
+        window.innerHeight;
+
+
+          // rect.top + parseFloat(style.paddingTop) >= 0 &&
+          // rect.top <=
+          //   (window.innerHeight || document.documentElement.clientHeight);
+
       // rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
       //&&
       // element.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
