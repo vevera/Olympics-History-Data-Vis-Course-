@@ -6,6 +6,11 @@ body::-webkit-scrollbar {
   display: none;
   scroll-behavior: smooth;
 }
+
+html {
+  scroll-behavior: smooth;
+  
+}
 .container {
   margin: 0;
   display: block;
