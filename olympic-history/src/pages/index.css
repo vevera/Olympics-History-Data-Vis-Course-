@@ -4,12 +4,14 @@
 } */
 body::-webkit-scrollbar {
   display: none;
+  scroll-behavior: smooth;
 }
 .container {
   margin: 0;
   display: block;
   position: relative;
   overflow-x: clip;
+  background-color: #012030;
   /* flex-direction: column; */
 }
 
@@ -113,8 +115,7 @@ body::-webkit-scrollbar {
 }
 
 .chart {
-
-  background-color:#012030;
+  background-color: #012030;
   width: 100vw;
   height: 100vh;
 }
