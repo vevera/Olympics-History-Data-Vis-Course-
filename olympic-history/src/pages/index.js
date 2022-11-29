@@ -31,14 +31,6 @@ const TimeLineVis = () => {
             No painel abaixo é mostrado um mapa que interage com o gráfico de
             barras ao lado quando um país é selecionado. Para cada país é
             mostrado a sua taxa de aproveitamento por esporte nas olimpíadas.
-            <br />
-            Para o cálculo da taxa de apoveitamento foram definidos pesos 1, 2 e
-            3 para as medalhas de bronze, prata e ouro. Após isso, é feito o
-            somatório das medatlas multiplicando-as pelos seus pesos
-            correspondentes.
-            <br />
-            Por fim, vamos ter essa soma dividida pelo numero de atletas
-            enviados pelo país, gerando assim a taxa de aproveitamento.
           </p>
           <br />
           <br />
@@ -48,25 +40,39 @@ const TimeLineVis = () => {
         <div className="chart">
           <MapBar className="mapbar" />
         </div>
+
         <div style={{ background: "#012030", margin: 10 }}>
           <br />
           <h1 style={{ color: "white" }}>Gráfico de Bolhas Interativo</h1>
           <br />
           <br />
           <p style={{ color: "white", fontSize: 20 }}>
-            Aqui temos a visualização de um gráfico de bolhas em que seus eixos
-            x e y correspondem, respectivamente, ao total de medalhas e o total
-            de atletas enviados. Cada círculo no gráfico representa um país e
-            sua área representa o seu pib per cápita.
-            <br />
-            No gráfico, a cada década, iniciando em 1890 até 2010, são
-            representados os 15 países que possuem o maior número de medalhas. O
-            intuito da visualização é ver a relação entre numero de atletas
-            enviados, numero de medalhas ganhas e fatores economicos.
+            No gráfico a seguir são representados os 15 países que possuem o
+            maior número de medalhas, a cada década, iniciando em 1890 até 2010.
+            O intuito da visualização é correlacionar o numero de atletas
+            enviados, numero de medalhas ganhas e também mostrar se existe
+            alguma influencia de fatores econômicos, como o pib per capita,
+            sobre esses valores.
           </p>
         </div>
-        <div className="chart">
+        <div className="chart2">
           <BubblePlot className="mapbar" />
+        </div>
+        <div
+          style={{
+            marginLeft: 10,
+            marginRight: 10,
+            marginBottom: 40,
+            textAlign: "center",
+          }}
+        >
+          <p style={{ color: "white", fontSize: 20 }}>
+            Como observado no gráfico acima, podemos inferir a não existência de
+            uma relação recorrente entre possuir um PIB per capta elevado e um
+            bom desempenho. É bastante claro, a competitividade dos países ao
+            longo dos anos, e não é raro observar que países com diferentes PIB
+            per capta com resultados bastante semelhantes.
+          </p>
         </div>
         <TimeLineBottom />
       </div>

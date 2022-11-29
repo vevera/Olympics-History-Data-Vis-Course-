@@ -13,7 +13,7 @@ const StaticView = () => {
   //const dataset = GetData(olympic_data, year);
   return (
     <div className="static-view">
-      <PieChart/>
+      <PieChart />
       <div id="view"></div>
     </div>
   );

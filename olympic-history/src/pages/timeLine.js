@@ -45,14 +45,12 @@ const TimeLineItem = ({ year, text, setVisibleYear }) => {
 
       //console.log("Year", year, rect, parseFloat(style.paddingTop) + rect.top)
       const isVisible =
-      rect.top + parseFloat(style.paddingTop) >= 0 &&
-        rect.bottom - parseFloat(style.paddingBottom)<=
-        window.innerHeight;
+        rect.top + parseFloat(style.paddingTop) >= 0 &&
+        rect.bottom - parseFloat(style.paddingBottom) <= window.innerHeight;
 
-
-          // rect.top + parseFloat(style.paddingTop) >= 0 &&
-          // rect.top <=
-          //   (window.innerHeight || document.documentElement.clientHeight);
+      // rect.top + parseFloat(style.paddingTop) >= 0 &&
+      // rect.top <=
+      //   (window.innerHeight || document.documentElement.clientHeight);
 
       // rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
       //&&
@@ -85,7 +83,9 @@ const TimeLineItem = ({ year, text, setVisibleYear }) => {
 const TimeLine = () => {
   return (
     <div className="time-line">
-      <h1>Timeline da trajetória feminina nos jogos olímpicos</h1>
+      <h1 style={{ textAlign: "center", marginTop: 20 }}>
+        Timeline da trajetória feminina nos jogos olímpicos
+      </h1>
       <ul id={"ulid"}>
         <TimeLineItem
           year={1896}
@@ -96,7 +96,7 @@ const TimeLine = () => {
         <TimeLineItem
           year={1900}
           text={
-            'Quatro anos depois, a sede das Olimpíadas de 1900 foi em Paris, marcada na época pelo liberalismo. Devido a lacunas e falta de organização do COI no controle do programa dos jogos foi permitido à participação extraoficial de mulheres em algumas provas, o golfe e o tênis, por serem belos e não possuir contato físico. Coubertin fez um leve recuo e autorizou que 22 mulheres participassem dos jogos em Paris, em 1900. Um número irrisório dentro de um total de 997 atletas, 2,2% deles. E tem mais: das 19 práticas, apenas 5 eram permitidas a elas. Tênis, vela, croquet, hipismo e golfe. Atividades exclusivas da aristocracia e que, de acordo com a visão da época, não demandam muito esforço físico, tampouco "compromete" a feminilidade. Naquele ano, foram 22 atletas admitidas. A condessa Hélène de Pourtalès, nascida nos Estados Unidos, foi a primeira a participar dos jogos, na competição de vela, em 22 de maio de 1900. Hèlène representou a Suíça com a tripulação do barco Lerina, que recebeu uma medalha de ouro. Hèlène foi, portanto, a primeira a participar e a ganhar a medalha. Já a tenista britânica Charlotte Cooper, foi a primeira a vencer em categoria individual.'
+            'Quatro anos depois, a sede das Olimpíadas de 1900 foi em Paris, marcada na época pelo liberalismo. Um número irrisório dentro de um total de 997 atletas, 2,2% deles. E tem mais: das 19 práticas, apenas 5 eram permitidas a elas. Tênis, vela, croquet, hipismo e golfe. Atividades exclusivas da aristocracia e que, de acordo com a visão da época, não demandam muito esforço físico, tampouco "compromete" a feminilidade. Naquele ano, foram 22 atletas admitidas. A condessa Hélène de Pourtalès, nascida nos Estados Unidos, foi a primeira a participar dos jogos, na competição de vela, em 22 de maio de 1900. Hèlène representou a Suíça com a tripulação do barco Lerina, que recebeu uma medalha de ouro. Hèlène foi, portanto, a primeira a participar e a ganhar a medalha. Já a tenista britânica Charlotte Cooper, foi a primeira a vencer em categoria individual.'
           }
         />
         <TimeLineItem

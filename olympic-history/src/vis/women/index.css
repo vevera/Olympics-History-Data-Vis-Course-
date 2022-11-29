@@ -4,7 +4,7 @@
 }
 
 .pie {
-  /* transform: scale(1.01) translate(70%, 10%); */
+  transform: scale(0.9) translate(5%, 5%);
   /* translate(6vw, 30vh) */
   /* transform: translate(10vw); */
 }

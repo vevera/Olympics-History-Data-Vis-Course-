@@ -9,7 +9,6 @@ body::-webkit-scrollbar {
 
 html {
   scroll-behavior: smooth;
-  
 }
 .container {
   margin: 0;
@@ -122,5 +121,12 @@ html {
 .chart {
   background-color: #012030;
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
+}
+
+.chart2 {
+  background-color: #012030;
+  width: 100vw;
+  height: 80vh;
+  margin-bottom: 0%;
 }
