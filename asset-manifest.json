@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Olympics-History-Data-Vis-Course-/static/css/main.34db3587.css",
-    "main.js": "/Olympics-History-Data-Vis-Course-/static/js/main.a56913cc.js",
+    "main.css": "/Olympics-History-Data-Vis-Course-/static/css/main.fe083fd2.css",
+    "main.js": "/Olympics-History-Data-Vis-Course-/static/js/main.15e8d6d2.js",
     "static/js/787.20c98141.chunk.js": "/Olympics-History-Data-Vis-Course-/static/js/787.20c98141.chunk.js",
     "static/media/csv": "/Olympics-History-Data-Vis-Course-/static/media/7e63bc19d17ad5c9071ac63185bddf7f176275b26969c1a6ade33973d146379d57330ef8764df36e0fad8686ea34ce26f4b10646ef93d0d8d5e715ea763cb113.08f91047b7ca1b5ead1b.csv",
     "static/media/header-image.png": "/Olympics-History-Data-Vis-Course-/static/media/header-image.7a6d257ecbcd0d35b251.png",
     "static/media/logo.svg": "/Olympics-History-Data-Vis-Course-/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Olympics-History-Data-Vis-Course-/index.html",
-    "main.34db3587.css.map": "/Olympics-History-Data-Vis-Course-/static/css/main.34db3587.css.map",
-    "main.a56913cc.js.map": "/Olympics-History-Data-Vis-Course-/static/js/main.a56913cc.js.map",
+    "main.fe083fd2.css.map": "/Olympics-History-Data-Vis-Course-/static/css/main.fe083fd2.css.map",
+    "main.15e8d6d2.js.map": "/Olympics-History-Data-Vis-Course-/static/js/main.15e8d6d2.js.map",
     "787.20c98141.chunk.js.map": "/Olympics-History-Data-Vis-Course-/static/js/787.20c98141.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34db3587.css",
-    "static/js/main.a56913cc.js"
+    "static/css/main.fe083fd2.css",
+    "static/js/main.15e8d6d2.js"
   ]
 }
