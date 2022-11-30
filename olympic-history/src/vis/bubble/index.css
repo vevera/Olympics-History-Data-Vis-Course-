@@ -7,7 +7,7 @@
 }
 
 
-.bubble-plot > svg > svg {
+.bubble-plot > div > svg {
     position:absolute;
     left:0; 
     top:0; 
