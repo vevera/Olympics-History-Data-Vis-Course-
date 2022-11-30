@@ -22,12 +22,12 @@ function MapBar() {
   }, []);
 
   return (
-    <>
-      <div className="bar-chart-svg" style = {{display: "None"}} ref={barChartSvgRef} />
+    <div style={{position:"relative", display:"flex", flex:1, width:"100vw", height:"100vh", marginTop:"-8%"}}>
+      <div className="bar-chart-svg" style = {{display: "none"}} ref={barChartSvgRef} />
       <div className="bar-chart-svg" ref={barRef} />
-      <div style = {{display: "None"}} ref={axisFinalRef} />
+      <div style = {{display: "none"}} ref={axisFinalRef} />
       <div ref={cssRef} />
-    </>
+    </div>
   );
 }
 

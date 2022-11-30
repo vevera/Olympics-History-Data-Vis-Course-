@@ -4466,9 +4466,9 @@ express@^4.17.3:
   resolved "https://api.observablehq.com/d/f3805e82ef20f033@1839.tgz?v=3"
   integrity sha512-+jeiWD3ue0TPoHsptigHaVfUZ/rPCAppf7TNSihYmEUQwz+hU9PA8mEZAxVae/eJpV1ULuELcF22rHQeyPoN9A==
 
-"f7f4ac94baa60885@https://api.observablehq.com/d/f7f4ac94baa60885@838.tgz?v=3":
-  version "838.0.0"
-  resolved "https://api.observablehq.com/d/f7f4ac94baa60885@838.tgz?v=3#eeb9b4b7e8a41950147337d660616bd7b369b246"
+"f3805e82ef20f033@https://api.observablehq.com/d/f3805e82ef20f033@1844.tgz?v=3":
+  version "1844.0.0"
+  resolved "https://api.observablehq.com/d/f3805e82ef20f033@1844.tgz?v=3#b0475df90d0d67e9bae5fc6c262a85db0d821439"
 
 "f7f4ac94baa60885@https://api.observablehq.com/d/f7f4ac94baa60885@867.tgz?v=3":
   version "867.0.0"

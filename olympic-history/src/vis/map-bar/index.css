@@ -1,4 +1,36 @@
 .bar-chart-svg > svg {
-  transform: scale(1.3) translate(10vw, 10vh);
+  position:absolute;
+  left:0; 
+  top:0; 
+  width:100%; 
+  height:100%;
   /* transform: translate(10vw); */
+}
+
+
+.pie   > svg {
+
+  position:absolute;
+  left:0; 
+  top:0; 
+  width:100%; 
+  height:100%;
+}
+
+.tree  > svg {
+
+  position:absolute;
+  left:0; 
+  top:0; 
+  width:100%; 
+  height:100%;
+}
+
+.bar  > svg {
+
+  position:absolute;
+  left:0; 
+  top:0; 
+  width:100%; 
+  height:100%;
 }

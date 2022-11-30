@@ -32,13 +32,10 @@ const TimeLineVis = () => {
             barras ao lado quando um país é selecionado. Para cada país é
             mostrado a sua taxa de aproveitamento por esporte nas olimpíadas.
           </p>
-          <br />
-          <br />
-          <br />
-          <br />
+          <MapBar className="mapbar" />
         </div>
         <div className="chart">
-          <MapBar className="mapbar" />
+          
         </div>
 
         <div style={{ background: "#012030", margin: 10 }}>
