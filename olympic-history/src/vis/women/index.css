@@ -1,25 +1,52 @@
 .bar {
   /* translate(3vw, 20vh) */
-  /* transform: scale(1.3) translate(100%, 10%); */
+  /*transform: translate(0%, -45%);*/
 }
 
 .pie {
-  transform: scale(0.9) translate(5%, 5%);
+  transform: scale(1.1)
   /* translate(6vw, 30vh) */
   /* transform: translate(10vw); */
 }
 
 .tree {
-  transform: scale(0.8) scaleX(1.1) scaleY(0.9) translate(15%, -6%);
+  transform: scaleX(1.5);
   /* translate(6vw, 30vh) */
   /* transform: translate(10vw); */
 }
 
+.pie   > svg {
+
+  position:absolute;
+  left:0; 
+  top:0; 
+  width:100%; 
+  height:100%;
+}
+
+.tree  > svg {
+
+  position:absolute;
+  left:0; 
+  top:0; 
+  width:100%; 
+  height:100%;
+}
+
+.bar  > svg {
+
+  position:absolute;
+  left:0; 
+  top:0; 
+  width:100%; 
+  height:100%;
+}
+
 .tree > svg > svg > g > text {
   /*font-weight: bold;*/
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin: 5px;
+  /* //margin: 5px; */
   stroke: rgb(26, 25, 25);
   stroke-width: 1px;
   fill: black;
