@@ -20,7 +20,7 @@ function BubblePlot() {
   }, []);
 
   return (
-    <div style={{display:"flex", position:"relative"}}>
+    <div style={{position:"relative", width:"100vw", height:"100vh"}}>
       <div className="bubble-plot" ref={viewofYearFilterRef} />
       <div className="bubble-plot" ref={chartDynamicRef} />
       <div ref={cssRef} />
